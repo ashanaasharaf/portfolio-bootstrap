@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* when div is given it affect in all div*/
+/* div{
+    background: green;
+    width: 300px;
+    height: 200px;   
+    margin-left: 20px;
+    margin-top: 40px; 
+    padding-left: 20px;
+    padding-top: 30px;
+    border: 1px solid;
+    border-color: red; 
+} */
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica Neue, sans-serif;
+}
+.outerBox{
+    background: green;
+    width: 300px;
+    height: 200px;   
+    color: #fff;
+    border: 1px solid;
+    border-color: red;
+}
+
+.box{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+.pData{
+    color: aliceblue;
+}
+
+.innerBox{
+    margin: 10px;
+    background: gray;
+    height:100px;
+    width:200px;
+}
